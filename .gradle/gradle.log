@@ -1,0 +1,111 @@
+The assetDir is deprecated!  I actually just did all this generalizing stuff just now.. Use runDir instead! runDir set to eclipse/assets/..The assetDir is deprecated!  I actually just did all this generalizing stuff just now.. Use runDir instead! runDir set to eclipse/assets/..
+
+The runDir should be the location where you want MC to be run, usually he parent of the asset dirThe runDir should be the location where you want MC to be run, usually he parent of the asset dir
+
+****************************
+ Powered By MCP:             
+ http://modcoderpack.com/    
+ Searge, ProfMobius, Fesh0r, 
+ R4wk, ZeuX, IngisKahn, bspkrs
+ MCP Data version : unknown
+****************************
+:compileApiJava UP-TO-DATE
+:processApiResources UP-TO-DATE
+:apiClasses UP-TO-DATE
+:sourceMainJava
+:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:processResources
+:classes
+:jar
+:getVersionJson
+:extractUserDev UP-TO-DATE
+:extractNatives UP-TO-DATE
+:getAssetsIndex
+:getAssets
+:makeStart
+[ant:javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+[ant:javac] 1 warning
+:runClient
+[02:06:06] [main/INFO] [GradleStart]: Extra: []
+[02:06:06] [main/INFO] [GradleStart]: Setting up virtual assets in: C:\Users\hp\.gradle\caches\minecraft\assets\virtual\legacy
+[02:06:11] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --accessToken, {REDACTED}, --assetIndex, legacy, --assetsDir, C:\Users\hp\.gradle\caches\minecraft\assets\virtual\legacy, --version, 1.7.2, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[02:06:11] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[02:06:11] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[02:06:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[02:06:11] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[02:06:11] [main/INFO] [FML]: Forge Mod Loader version 7.2.211.1121 for Minecraft 1.7.2 loading
+[02:06:11] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0, running on Windows 7:amd64:6.1, installed at C:\Program Files\Java\jdk1.7.0\jre
+[02:06:11] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[02:06:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[02:06:11] [main/INFO] [GradleStart]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
+[02:06:11] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[02:06:11] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[02:06:11] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[02:06:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[02:06:11] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[02:06:11] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[02:06:11] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[02:06:12] [main/ERROR] [FML]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[02:06:13] [main/ERROR] [FML]: The minecraft jar file:/C:/Users/hp/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.2.1121/forgeSrc-1.7.2-10.12.2.1121.jar!/net/minecraft/client/ClientBrandRetriever.class appears to be corrupt! There has been CRITICAL TAMPERING WITH MINECRAFT, it is highly unlikely minecraft will work! STOP NOW, get a clean copy and try again!
+[02:06:13] [main/ERROR] [FML]: FML has been ordered to ignore the invalid or missing minecraft certificate. This is very likely to cause a problem!
+[02:06:13] [main/ERROR] [FML]: Technical information: ClientBrandRetriever was at jar:file:/C:/Users/hp/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.2.1121/forgeSrc-1.7.2-10.12.2.1121.jar!/net/minecraft/client/ClientBrandRetriever.class, there were 0 certificates for it
+[02:06:13] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[02:06:13] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[02:06:13] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[02:06:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[02:06:14] [main/ERROR] [GradleStart]: ModAccessTransformer was somehow not found.
+[02:06:14] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[02:06:16] [main/INFO]: Setting user: Player759
+Completely ignored arguments: [--assetIndex, legacy, --userProperties, {}]
+[02:06:19] [Client thread/INFO]: LWJGL Version: 2.9.0
+[02:06:23] [Client thread/INFO] [MinecraftForge]: Attempting early MinecraftForge initialization
+[02:06:23] [Client thread/INFO] [FML]: MinecraftForge v10.12.2.1121 Initialized
+[02:06:23] [Client thread/INFO] [FML]: Replaced 182 ore recipies
+[02:06:23] [Client thread/INFO] [MinecraftForge]: Completed early MinecraftForge initialization
+[02:06:23] [Client thread/INFO] [FML]: Config directory created successfully
+[02:06:24] [Client thread/INFO] [FML]: Searching C:\Users\hp\Desktop\Projects\MinecraftStrategy\eclipse\mods for mods
+[02:06:27] [Client thread/ERROR] [FML]: FML has detected a mod that is using a package name based on 'net.minecraft.src' : net.minecraft.src.FMLRenderAccessLibrary. This is generally a severe programming error.  There should be no mod code in the minecraft namespace. MOVE YOUR MOD! If you're in eclipse, select your source code and 'refactor' it into a new package. Go on. DO IT NOW!
+[02:06:34] [Client thread/INFO] [FML]: Forge Mod Loader has identified 4 mods to load
+[02:06:35] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
+[02:06:35] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[02:06:35] [Client thread/INFO] [FML]: Found 341 ObjectHolder annotations
+[02:06:35] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[02:06:35] [Client thread/INFO] [FML]: Applying holder lookups
+[02:06:35] [Client thread/INFO] [FML]: Holder lookups applied
+
+Starting up SoundSystem...
+Initializing LWJGL OpenAL
+    (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+OpenAL initialized.
+
+[02:06:37] [Sound Library Loader/INFO]: Sound engine started
+[02:06:39] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[02:06:40] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+DIRT BLOCK >> tile.dirt
+[02:06:40] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 4 mods
+[02:06:40] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
+[02:06:40] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[02:06:41] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+
+SoundSystem shutting down...
+    Author: Paul Lamb, www.paulscode.com
+
+
+Starting up SoundSystem...
+Initializing LWJGL OpenAL
+    (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+OpenAL initialized.
+
+[02:06:42] [Sound Library Loader/INFO]: Sound engine started
+[02:06:46] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
+[02:06:52] [Client thread/INFO]: Stopping!
+
+SoundSystem shutting down...
+    Author: Paul Lamb, www.paulscode.com
+
+
+BUILD SUCCESSFUL
+
+Total time: 2 mins 40.199 secs

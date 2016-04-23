@@ -1,0 +1,12 @@
+[02:06:16] [main/INFO]: Setting user: Player759
+[02:06:19] [Client thread/INFO]: LWJGL Version: 2.9.0
+[02:06:35] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
+[02:06:37] [Sound Library Loader/INFO]: Sound engine started
+[02:06:39] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[02:06:40] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[02:06:40] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
+[02:06:40] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[02:06:41] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[02:06:42] [Sound Library Loader/INFO]: Sound engine started
+[02:06:46] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
+[02:06:52] [Client thread/INFO]: Stopping!
